@@ -1,0 +1,171 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.brand-name h1{
+    display: inline-block;
+}
+
+.h1-bn{
+    color: red;
+}
+.h12-bn{
+    color: white;
+}
+
+.navbar{
+    background-color: rebeccapurple !important;
+}
+
+.nav-link{
+    color: white !important;
+}
+.nav-link:hover{
+    color: rebeccapurple !important;
+    background-color: white;
+    border-radius: 20px;
+}
+.form-control{
+    border-radius: 20px;
+}
+.btn{
+    border-radius: 20px;
+}
+
+/* About us  */
+
+.Aboutus{
+    text-align: center;
+}
+
+.h1-au{
+    font-weight: 900;
+}
+
+.au{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    max-width: 768px;
+    margin: 0 auto;
+
+}
+
+.au h5{
+    font-weight: 700;
+}
+.Services{
+    text-align: center;
+    width: 80%;
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+.about {
+    width: 100%;
+    height: auto;
+    background: linear-gradient(135deg, #153677, #4e085f);
+    padding: 20px; 
+    box-sizing: border-box; 
+  }
+  
+  .card {
+    margin: 30px auto; 
+    box-shadow: 2px 2px 8px grey;
+    width: 100%;
+    max-width: 540px;
+  }
+  
+  .card:hover {
+    box-shadow: 4px 4px 16px grey;
+  }
+  
+.Aboutus{
+    border-bottom: 1px solid black;
+}
+
+.service{
+ 
+    width: 100%;
+    height: auto;
+    background: linear-gradient(135deg, #153677, #4e085f);
+    padding: 20px; 
+    box-sizing: border-box;
+    
+}
+.card-body h5{
+    text-align: center;
+    font-weight: 900;
+}
+
+.tool-bg {
+    width: 100%;
+    background: linear-gradient(135deg, #153677, #4e085f);
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+  }
+  
+  .tools {
+    width: 80%;
+    text-align: center;
+  }
+  
+  .toolkit {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .card-tools {
+    flex: 1 1 calc(25% - 10px);
+    margin: 10px 0;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-right: 5px;
+  }
+  
+  .card-tools img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  
+  @media (max-width: 992px) {
+    .card-tools {
+      flex: 1 1 calc(33.33% - 10px); 
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .card-tools {
+      flex: 1 1 calc(50% - 10px); 
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .card-tools {
+      flex: 1 1 100%; 
+    }
+  }
+  
+  .hding{
+    color: white;
+  }
+  .text-white{
+    text-decoration: none
+  }
+  .card-tools:hover{
+    cursor: grab;
+  }
+  .contaiiner{
+    height: 100vh;
+  }
